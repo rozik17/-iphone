@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: white;
+}
+
+#header .header--menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .header--menu p {
+  font-family: "Motter Corpus Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0B4141;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 0 150px 0 90px;
+}
+#header .header--menu--who {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#header .header--menu--who a {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #0B4141;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#header .header--menu--who button {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFCCBC;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#header .header--two h1 {
+  position: absolute;
+  left: 5.49%;
+  right: 69.24%;
+  top: 2.2%;
+  bottom: 97.47%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #E4E4E4;
+  padding: 120px 0;
+}
+#header .header--photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+#header .header--photo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .header--where {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  background: #FFCCBC;
+}
+#logo .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo .logo--text h1 {
+  width: 747px;
+  height: 192px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding: 40px 0;
+}
+
+#back {
+  background: #0B4141;
+}
+#back .back--hero h1 {
+  width: 479px;
+  height: 143px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 72px;
+  color: #FFCCBC;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#back .back--hero__knop {
+  display: flex;
+  justify-content: space-between;
+}
+#back .back--hero__knop p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFCCBC;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
